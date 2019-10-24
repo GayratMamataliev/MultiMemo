@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fon"
+
+    tools:context=".Login">
+
+    <LinearLayout
+
+        android:layout_marginTop="165dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="Email"
+            android:textColorHint="@color/colorAccent"
+            android:id="@+id/email"
+            android:textColor="@color/colorAccent"
+            android:layout_width="200dp"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"/>
+
+        <EditText
+            android:hint="Password"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/passwprd"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:id="@+id/BtnLogin"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="12dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="btnLoginAction"
+            android:text="Login " />
+        <Button
+            android:layout_toRightOf="@id/BtnLogin"
+            android:layout_marginLeft="12dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnRegisterAction"
+            android:text="Register"/>
+    </RelativeLayout>
+
+</LinearLayout>

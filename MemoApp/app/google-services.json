@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1018375960101",
+    "firebase_url": "https://memoapp-2fc8a.firebaseio.com",
+    "project_id": "memoapp-2fc8a",
+    "storage_bucket": "memoapp-2fc8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018375960101:android:a87a514c98b8a3f2",
+        "android_client_info": {
+          "package_name": "com.example.gayrat.memoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018375960101-drc8qu6qjskab5j8pt5t64gmijp8d1bb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gayrat.memoapp",
+            "certificate_hash": "cfb25bc285689a63a8e8b21a4212d4d623fd18d7"
+          }
+        },
+        {
+          "client_id": "1018375960101-reupo6k4gqnb060ffmfmj2l0dl3guiad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANn9RSSzcy9b8eYtXD5IYfSfvZRN43tAg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018375960101-reupo6k4gqnb060ffmfmj2l0dl3guiad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
